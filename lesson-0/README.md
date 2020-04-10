@@ -8,6 +8,7 @@ We start this course by understanding how we interact with our computer through 
 
 A "terminal" is an electronic device that is used for entering data into, and displaying or printing data from, a computing system.
 
-![](https://upload.wikimedia.org/wikipedia/commons/9/9f/DEC_VT100_terminal_transparent.png)
+![](../.media/terminal.png | width=100)
+| image: wikipedia
 
 Modern operating systems (MacOS X, Windows, Ubuntu...) use a terminal emulator (simulator) program, and not a hardware device.
