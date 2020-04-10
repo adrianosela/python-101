@@ -1,4 +1,4 @@
-### Lesson 0 - The Terminal & Git
+### Lesson 0 - The OS, Terminal Basics, and Git
 
 Writing code is only one of the many tasks computer programers must become proficient in to be able to do anything useful. There is a whole suite of technologies you must learn, depending on how you are planning to exercise your programming knowledge.
 
