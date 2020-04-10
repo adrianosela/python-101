@@ -6,12 +6,12 @@ We'll begin this course by understanding how we interact with our computer throu
 
 ### Contents
 
-* [0.1 - The Operating System](#01---the-operating-system)
-* [0.2 - The Terminal & Unix Shell Basics](#03---the-terminal-and-unix-shell-basics)
-* [0.3 - The OS Package Manager](#03---the-os-package-manager)
-* [0.4 - Git and Version Control](#04---git-and-version-control)
+* [0.0 - The Operating System](#01---the-operating-system)
+* [0.1 - The Terminal & Unix Shell Basics](#03---the-terminal-and-unix-shell-basics)
+* [0.2 - The OS Package Manager](#03---the-os-package-manager)
+* [0.3 - Git and Version Control](#04---git-and-version-control)
 
-## 0.1 - The Operating System
+## 0.0 - The Operating System
 
 The "OS" is system software that manages computer hardware, software resources, and provides common services for computer programs.
 
@@ -25,7 +25,7 @@ Basically, the OS is a service that is always running on your computer, and it p
 
 Take a look at the image above. If you have no experience with programming, so far you have only interacted with your computer/machine as a user. Throughout this course, you will learn to write application software, such that you can tell your computer what you want it to do.
 
-## 0.2 - The Terminal and Unix Shell Basics
+## 0.1 - The Terminal and Unix Shell Basics
 
 A "terminal" is an electronic device that is used for entering data into, and displaying or printing data from, a computing system.
 
@@ -59,7 +59,7 @@ This command will create a directory at the location given with the name given. 
 
 This command will create a directory at the location given with the name given. Example `mkdir directory_name`
 
-## 0.3 - The OS Package Manager
+## 0.2 - The OS Package Manager
 
 UNIX-based Operating Systems (e.g. Linux, MacOS X... - not windows) typically come with a program called package manager.
 
@@ -102,7 +102,7 @@ We will need to install the git program to our machines in order to be able to a
 $ brew install git
 ```
 
-## 0.4 - Git and Version Control
+## 0.3 - Git and Version Control
 
 Clone this git repository:
 
