@@ -6,10 +6,10 @@ We'll begin this course by understanding how we interact with our computer throu
 
 ### Contents
 
-* [0.1 - The Operating System]()
-* [0.2 - The Terminal & Unix Shell Basics]()
-* [0.3 - The OS Package Manager]()
-* [0.4 - Git and Version Control]()
+* [0.1 - The Operating System](#01---the-operating-system)
+* [0.2 - The Terminal & Unix Shell Basics](#03---the-terminal-&-unix-shell-basics)
+* [0.3 - The OS Package Manager](#03---the-os-package-manager)
+* [0.4 - Git and Version Control](#04---git-and-version-control)
 
 ## 0.1 - The Operating System
 
@@ -31,7 +31,7 @@ A "terminal" is an electronic device that is used for entering data into, and di
 
 <img src="../.media/terminal.png" height="300">
 
-> DEC VT100 Terminal - [source](source: https://en.wikipedia.org/wiki/Computer_terminal)
+> DEC VT100 Terminal - [source](https://en.wikipedia.org/wiki/Computer_terminal)
 
 Modern operating systems (MacOS X, Windows, Ubuntu...) include a terminal emulator (simulator) program, called a **"shell"**. Physical hardware terminals as shown in the image above are no longer used in practice.
 
