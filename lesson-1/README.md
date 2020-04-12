@@ -121,7 +121,7 @@ print(a)
 
 ## 1.3 - input() and print() Functions
 
-To output data from any python program, we use the output() function. To input data into a program, we use input(). This function reads a single line of text, as a string.
+To output data from any python program, we use the print() function. To input data into a program, we use input(). This function reads a single line of text, as a string.
 
 Here's a program that reads the user's name and says Hello to them:
 
