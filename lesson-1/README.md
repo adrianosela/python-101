@@ -7,7 +7,7 @@ Enough computer systems background for now, lets dive into the code.
 * [1.0 - Python Files](#10---python-files)
 * [1.1 - Your First Python Program](#11---your-first-python-program)
 * [1.2 - Literal Types](#12---literal-types)
-* [1.3 - input() and print() Functions](#13---input()-and-print()-functions)
+* [1.3 - input() and print() Functions](#13---input-and-print-functions)
 * [1.4 - Numeric Operators](#13---input()-and-print()-functions)
 
 ## 1.0 - Python Files
