@@ -7,7 +7,7 @@ Often in programming, we want to be able to conditionally run our code. That is,
 * [2.0 - The `if()` Statement](#20---the-if()-statement)
 * [2.1 - The `else` Statement](#21---the-else-statement)
 * [2.2 - The `elif()` Statement](#22---the-elif()-statement)
-* [2.3 - Boolean Operations](#23---boolean-operations)
+* [2.3 - Logical (Boolean) Operators](#23---logical-operations)
 
 ## 2.0 - The if() Statement
 
@@ -63,5 +63,16 @@ else:
 
 Take a look at the file `elif.py`, understand the code and run it.
 
-## 2.3 - Boolean Operations
+## 2.3 - Logical Operators
+
+Conditions can be combined using boolean operations in python.
+
+For example consider two boolean variables `a`, and `b`.
+Let `a` and `b` represent the statements `today is sunny`, and `today is warm` respectively.
+
+Then an expression `c = a and b` reads as a single statement: `today is sunny and today is warm`
+
+In the example above, we only look at the `and` operator. We also have an `or` operator, and a `not` operator, which behave exactly as you'd expect.
+
+Take a look at the file `bools.py`, understand the code and run it. Get familiar with the logical operators in python.
 
