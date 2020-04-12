@@ -6,5 +6,5 @@ A set of lessons to teach the basics of computer programming to a household of 7
 
 * [Lesson 0: The OS, Terminal Basics, and Git](https://github.com/adrianosela/python-101/tree/master/lesson-0)
 * [Lesson 1: Diving Into Python](https://github.com/adrianosela/python-101/tree/master/lesson-1)
-* [Lesson 2: Conditional Statements and Loops](https://github.com/adrianosela/python-101/tree/master/lesson-2)
+* [Lesson 2: Conditional Statements and Boolean Operations](https://github.com/adrianosela/python-101/tree/master/lesson-2)
 * TBD...
