@@ -4,9 +4,9 @@ Often in programming, we want to be able to conditionally run our code. That is,
 
 ### Contents
 
-* [2.0 - The `if()` Statement](#20---the-if\(\)-statement)
+* [2.0 - The `if()` Statement](#20---the-if()-statement)
 * [2.1 - The `else` Statement](#21---the-else-statement)
-* [2.2 - The `elif()` Statement](#22---the-elif\(\)-statement)
+* [2.2 - The `elif()` Statement](#22---the-elif()-statement)
 * [2.3 - Logical (Boolean) Operators](#23---logical-operators)
 * [2.4 - A Tangible Exercise](#24---a-tangible-exercise)
 
