@@ -4,9 +4,13 @@ Enough computer systems background for now, lets dive into the code.
 
 ### Contents
 
-* [1.0 - Python Files](#10---python-files-and-text-editor)
+* [1.0 - Python Files](#10---python-files)
+* [1.1 - Your First Python Program](#11---your-first-python-program)
+* [1.2 - Literal Types](#12---literal-types)
+* [1.3 - input() and print() Functions](#13---input()-and-print()-functions)
+* [1.4 - Numeric Operators](#13---input()-and-print()-functions)
 
-## 1.0 - Python Files and Text Editor
+## 1.0 - Python Files
 
 Python files are typically named with the `.py` file extension. That is, python files are named as `file.py`.
 
@@ -47,7 +51,7 @@ $ python hello-world.py
 Horray! You wrote (and ran) your first program! Throughout the rest of this lesson we will cover the very basics of Python.
 
  
-## 1.2 - Literals 
+## 1.2 - Literal Types
 
 In this section we will examine built-in types, also called literals. These are *things* that we use to define real world occurences when writing software.
 
@@ -114,3 +118,56 @@ Type the following lines into a new file - `strings.py` and run it:
 a = "Hello"
 print(a)
 ```
+
+## 1.3 - input() and print() Functions
+
+To output data from any python program, we use the output() function. To input data into a program, we use input(). This function reads a single line of text, as a string.
+
+Here's a program that reads the user's name and says Hello to them:
+
+```
+print('What is your name?')
+name = input()
+print('Hello ' + name + '!')
+```
+
+## 1.4 - Numeric Operators
+
+Here's a table of the arithmetic operators (math you can do) for numeric types in python:
+
+|   Operator    |  Description  |Example|
+| -------- |:-----------:| :-------:|
+| + (add)    | Adds values on either side of the operator.|c = a + b|
+| - (subtraction) |	Subtracts right hand operand from left hand operand. | c = a – b| 
+| * (multiplication) |	Multiplies values on either side of the operator | c = a * b |
+| / (division	) | Divides left hand operand by right hand operand |	c = b / a |
+| % (modulus) | Divides left hand operand by right hand operand and returns remainder|	c = b%a |
+| ** (exponent) | Performs exponential (power) calculation on operators | c = a ** b | 
+| // (floor div.) | The division of operands where the result is the quotient in which the digits after the decimal point are removed. But if one of the operands is negative, the result is floored, i.e., rounded away from zero (towards negative infinity) | 	9//2=4  -11//3=-4 |
+
+> Note that the `+` operator will concatenate strings rather than 'add them' such that:
+>
+```
+print("hello," + " world!")
+```
+> will print:
+```
+hello, world!
+```
+
+Here's a table of the comparative operators for numeric types in python:
+
+|   Operator    |  Description  |Example|
+| :--------: |:-----------:| :-------:|
+| == |	If the values of two operands are equal, then the condition becomes true. |	(a == b) is not true |
+| != | If values of two operands are not equal, then condition becomes true. | (a != b) is true |
+| >	 | If the value of left operand is greater than the value of right operand, then condition becomes true. |	(a > b) is not true. |
+| < | 	If the value of left operand is less than the value of right operand, then condition becomes true. |	(a < b) is true. |
+| >= |	If the value of left operand is greater than or equal to the value of right operand, then condition becomes true. |	(a >= b) is not true. |
+| <= |	If the value of left operand is less than or equal to the value of right operand, then condition becomes true. |	(a <= b) is true. |
+
+**See the file in this directory called `numops.py`. Read through the code and run the program -- get familiar with the mathematics and comparisons you can do with the python programming language.**
+
+Note that there are many assignment and bitwise operators that we did not cover above. 
+
+In the next section we will get into python conditional statements and loops.
