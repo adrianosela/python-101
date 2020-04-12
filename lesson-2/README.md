@@ -76,3 +76,32 @@ In the example above, we only look at the `and` operator. We also have an `or` o
 
 Take a look at the file `bools.py`, understand the code and run it. Get familiar with the logical operators in python.
 
+## 2.4 - A Tangible Exercise:
+
+> Note that this is entirely fictional
+
+The government has claimed that if a given person has 4/8 of the following symptoms, they are very likely to have a new novel virus.
+
+Write a program to do the following:
+
+Ask the user their name, and age, as well as the following 8 questions:
+
+* Do you have a cough?
+* Do you have a fever?
+* Do you have excessive fatigue?
+* Do you have a shortness of breath?
+* Do you have a phlegm?
+* Do you have bodyaches?
+* Do you have sore throat?
+* Do you have a lack of appetite?
+
+If the user reponds with the exact phrase 'yes', to at least four of the questions, print a phrase recommending they seek medical attention.
+
+Otherwise, print a phrase to let them know that they are most likely OK.
+
+In both cases, before printing the phrase, print the name and age of the user.
+
+The solution can be found in `solution.py` to check your answers, don't cheat!
+
+Note that there are many better ways to write this program than the solution, but this solution uses only the constructs we have learned thus far in this course.
+
