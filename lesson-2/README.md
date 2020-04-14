@@ -1,4 +1,4 @@
-### Lesson 2 - Conditional Statements and Boolean Operations
+### Lesson 2 - Conditional Statements and Boolean Operators
 
 Often in programming, we want to be able to conditionally run our code. That is, we dont always the same code to run. Programming languages like python provide a built-in way for code to run based on conditions -- conditional statements.
 
