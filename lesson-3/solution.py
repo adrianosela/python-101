@@ -5,7 +5,6 @@ temps=[6007.462642,5953.857021,6003.554686,6085.209106,6163.956968,5969.4999,589
 days = 31
 
 sum = 0.0
-std_sum = 0.0
 for day in range(days):
     sum = sum + temps[day]
 
