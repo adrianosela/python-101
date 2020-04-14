@@ -1,6 +1,6 @@
 ### Lesson 3 - Lists, Loops, and Comments
 
-Often in programming, we want to be able to run a portion of our code multiple times such that a given portion of code does not have to be rewritten. Loops such as `for` and `while` loops allow us to run a given portion of code for as long as the condition in the loop definition is true.
+Often in programming, we want to be able to run a portion of our code multiple times such that a given portion of code does not have to be rewritten. Loops such as `for` and `while` loops allow us to run a given portion of code a well-defined number of times, or for as long as a condition is true.
 
 Our programs are getting somewhat complex and may be hard to understand. In this lesson we introduce comments and how to comment out your code for others and yourself to read. The best code is often not the fastest or smallest, but the most readable.
 
@@ -9,7 +9,7 @@ Our programs are getting somewhat complex and may be hard to understand. In this
 * [3.0 - Lists](#30---lists)
 * [3.1 - Indexing](#31---indexing)
 * [3.2 - The `for` loop](#32---the-for-loop)
-* [3.3 - The `range` function](#33---the-range-function)
+* [3.3 - The `range()` function](#33---the-range-function)
 * [3.4 - The `while` loop](#34---the-while-loop)
 * [3.5 - Comments](#35---comments)
 
@@ -77,7 +77,7 @@ I encourage you to take a good read at the error message every single time you e
 
 Error messages, or `exceptions` as they are called in Python, will give you the line number where the program went wrong, so you can easily go back to that line and fix any syntax error or other errors.
 
-## 3.1 - The `for` Loop:
+## 3.2 - The `for` Loop:
 
 In software we rarely ever access list elements with explicit indices as shown above. Python provides syntax for performing an operation for every item on a list, the `for` loop.
 
@@ -127,6 +127,63 @@ Note that this syntax is better than explicit indexing because we don't need to 
 
 Run the files `apples_bad.py` and `apples_good.py` and see for yourself that they are functionally equivalent. Convince yourself that `apples_good.py` is a better implementation.
 
-## 3.2 - The `range` function:
+## 3.3 - The `range()` function:
+
+The range() function returns a sequence of numbers, starting from 0 by default, and increments by 1 (by default), and ends at a specified number.
+
+The syntax is as follows:
+
+```
+range(start, stop, step)
+```
+
+However, the start and step arguments are optional. That is, the function behaves differently when given a different number of arguments.
+
+* If only one argument is given, it is assumed to be the `stop` argument:
+
+```
+range(7)
+```
+
+Will return a range of all integers from 0 to 6.
+
+* If two arguments are given, they are assumed to be the `start` and `stop` arguments respectively:
+
+```
+range(3,7)
+```
+
+Will return a range of all integers from 3 to 6
+
+* Finally, if all three arguments are given:
+
+```
+range(10, 51, 10)
+```
+
+Where the step is 10, will return a range of all multiples of 10, from 0 to 50.
+
+Take a look at the file `range.py`. Run the code and get familiar with the range function, we will use it extensively in our programs.
+
+Further note that the output of the range function is not a list, but rather an iterator. The differences are probably not clear to you at the moment, we will get to that eventually...
 
 
+We can iterate over the output of range directly as follows:
+`x` here is just a variable that holds the current value of the iterator.
+
+```
+for x in range(7):
+	print(x)
+```
+
+The code above will run `print(x)` exactly 7 times, with values from 0 to 6.
+
+Take a look at the file `forrange.py`. Run the code and get familiar with using `for` loops with the `range()` function, we will use this pattern extensively in our programs.
+
+## 3.4 - The `while` loop:
+
+// TODO
+
+## 3.5 - Comments:
+
+// TODO
