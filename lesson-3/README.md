@@ -182,8 +182,86 @@ Take a look at the file `forrange.py`. Run the code and get familiar with using 
 
 ## 3.4 - The `while` loop:
 
-// TODO
+Sometimes we don't want to do something a number of times (and use a `for` loop), but rather we want to do something until a condition becomes true. This is why we have while loops.
+
+The syntax is as follows:
+
+```
+while(<condition>):
+    <statements>
+```
+
+#### Example:
+
+We want to write software that looks at the elements of a list of integers and prints out the first occurence of the number 5 in the list. Here is a possible solution using a `while` loop on the `found` condition:
+
+```
+numbers = [1, 3, 9, 6, 0, 4, 2, 6, 5, 8, 5, 9, 2, 7, 4, 0, 1]
+
+found = False
+index = -1
+
+while(not found):
+    index = index + 1
+    if numbers[index] == 5:
+        found = True
+    
+if index == -1:
+    print("no number 5 in the list!")
+else:
+    print("first occurence of 5 happens at index", index)
+```
+
+The code above can be found in `while.py`. Run it, add print statements, modify it however you want -- keep getting exposure to code and try breaking it, adding things, etc.
 
 ## 3.5 - Comments:
 
-// TODO
+Our code is now becoming more and more complex. Software is often written in collaborative environments. This is why a property of good software is readability. Your code must be self explanatory, and avoid trivial variable names, and confusing constants.
+
+Most programming languages have comment syntax. Comments are helpful to annotate custom functions or complex logic such that yourself and other developers can read a description, and not have to read the code.
+
+In python, comments begin with a `#` character. They are ignored by the python interpreter (the program that reads your python file line by line and executes the instructions in it).
+
+For example, here's an **excessively** annotated version of the list example in `apples_good.py`:
+
+These comments are redundant, and don't really help the reader understand the code more than the code itself does. This is not a good thing to do, but I've used it as an example to illustrate how comments work.
+
+```
+# the my_list list stores fruit names
+my_list = ["apples", "oranges", "bananas", "apples", "apples", "lemon"]
+
+# we initialize an apples counter at 0
+appleCount = 0
+
+# we iterate for every fruit in the list of fruit names
+for fruit in my_list:
+
+    # if the fruit is "apples", then increment the apples counter
+    if fruit == "apples":
+        appleCount = appleCount + 1
+
+# print the apple counter
+print(appleCount)
+```
+
+## 3.6 - Exercise
+
+> If you don't know what mean and standard deviation are, go read about them
+
+You are given a list of float values, where each float value represents the temperature of the sun on every day of the last year (there are 365 values in the list).
+
+Your task is to find the mean, and standard deviation of the temperature of the sun for the month of January of last year. 
+
+> If you don't know what mean and standard deviation are, go read about them
+
+Note that you will need to use the `math.sqrt()` function to calculate a square root in this exercise. The `math` module has already been imported for you in the exercise file. If usage of `math.sqrt()` is not clear, consult the Internet.
+
+The exercise (with the list of temperatures) can be found in `solar_temperature.py`, and the solution you should arrive to is:
+
+```
+Mean: 6023.3921015161295
+Standard Deviation: 91.51985817471775
+```
+If you don't remember your python math operators, go back to the list of arithmetic operators in lesson-1.
+
+A not very elegant solution can be found in `solution.py` -- don't cheat! Try it out first.
