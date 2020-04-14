@@ -12,7 +12,7 @@ Our programs are getting somewhat complex and may be hard to understand. In this
 * [3.3 - The `range()` function](#33---the-range-function)
 * [3.4 - The `while` loop](#34---the-while-loop)
 * [3.5 - Comments](#35---comments)
-* [3.6 - Exercise](#35---exercise)
+* [3.6 - Exercise](#36---exercise)
 
 ## 3.0 - Lists:
 
@@ -249,7 +249,7 @@ print(appleCount)
 
 > If you don't know what mean and standard deviation are, go read about them
 
-You are given a list of float values, where each float value represents the temperature of the sun on every day of the last year (there are 365 values in the list).
+You are given a list of float values, where each float value represents the temperature of the sun on every day of the last year (there are 365 values in the list) in Kelvin.
 
 Your task is to find the mean, and standard deviation of the temperature of the sun for the month of January of last year. 
 
