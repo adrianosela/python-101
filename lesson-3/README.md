@@ -253,7 +253,7 @@ You are given a list of float values, where each float value represents the temp
 
 Your task is to find the mean, and standard deviation of the temperature of the sun for the month of January of last year. 
 
-> If you don't know what mean and standard deviation are, go read about them
+> If you don't know what mean and standard deviation are, go read about them - no this is not a typo
 
 Note that you will need to use the `math.sqrt()` function to calculate a square root in this exercise. The `math` module has already been imported for you in the exercise file. If usage of `math.sqrt()` is not clear, consult the Internet.
 
