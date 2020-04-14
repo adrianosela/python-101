@@ -12,6 +12,7 @@ Our programs are getting somewhat complex and may be hard to understand. In this
 * [3.3 - The `range()` function](#33---the-range-function)
 * [3.4 - The `while` loop](#34---the-while-loop)
 * [3.5 - Comments](#35---comments)
+* [3.6 - Exercise](#35---exercise)
 
 ## 3.0 - Lists:
 
