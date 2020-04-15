@@ -8,7 +8,7 @@ loops, and be sure to comment out your code where you deem necessary.
 Exercises are self contained in the files:
 
 * `a.py`
-* `b.py` (TBD)
+* `b.py`
 * `c.py` (TBD)
 * `d.py` (TBD)
 * `e.py` (TBD)
@@ -16,7 +16,7 @@ Exercises are self contained in the files:
 The solutions are in the corresponding files:
 
 * `a_soln.py`
-* `b_soln.py` (TBD)
+* `b_soln.py`
 * `c_soln.py` (TBD)
 * `d_soln.py` (TBD)
 * `e_soln.py` (TBD)
