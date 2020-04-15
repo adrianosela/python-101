@@ -11,10 +11,11 @@ have all of the water you need in your container. That
 is, if a plant requires 800mL of water, and you only 
 have 400mL in your container, you MUST refill immediately.
 i.e. You can't pour half now, and half after you've refilled.
+
+Hint - you will need a loop, and some variables
 """
 
 containerMax = 800
 plants = [120, 250, 250, 150, 420, 250, 300, 750, 180, 450]
 
 # TODO: write your code here.
-# hint - you will need a loop, and some variables
