@@ -8,7 +8,4 @@ while(not found):
     if numbers[index] == 5:
         found = True
     
-if index == -1:
-    print("no number 5 in the list!")
-else:
-    print("first occurence of 5 happens at index", index)
+print("first occurence of 5 happens at index", index)
