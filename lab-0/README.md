@@ -66,4 +66,43 @@ Return the winner of the game if it exists ("A" or "B"), in case the game ends i
 
 You can assume that the list of moves is valid (moves follow the rules of Tic-Tac-Toe), the grid is initially empty and player A will play first.
 
+Here are some examples:
+
+```
+Input: moves = [[0,0],[2,0],[1,1],[2,1],[2,2]]
+Output: "A"
+Explanation: "A" wins, he always plays first.
+"X  "    "X  "    "X  "    "X  "    "X  "
+"   " -> "   " -> " X " -> " X " -> " X "
+"   "    "O  "    "O  "    "OO "    "OOX"
+```
+
+```
+Input: moves = [[0,0],[1,1],[0,1],[0,2],[1,0],[2,0]]
+Output: "B"
+Explanation: "B" wins.
+"X  "    "X  "    "XX "    "XXO"    "XXO"    "XXO"
+"   " -> " O " -> " O " -> " O " -> "XO " -> "XO " 
+"   "    "   "    "   "    "   "    "   "    "O  "
+```
+
+```
+Input: moves = [[0,0],[1,1],[2,0],[1,0],[1,2],[2,1],[0,1],[0,2],[2,2]]
+Output: "Draw"
+Explanation: The game ends in a draw since there are no moves to make.
+"XXO"
+"OOX"
+"XOX"
+```
+
+```
+Input: moves = [[0,0],[1,1]]
+Output: "Pending"
+Explanation: The game has not finished yet.
+"X  "
+" O "
+"   "
+```
+
+
 Boilerplate for your code has already been written in `tictactoe.py`, and a reasonable solution in `tictactoe_soln.py`. Note that the file includes a function to test your `tictactoe()` function against some examples. Run the `tictactoe.py` file before modifying it, and see how all tests are currently failing.
