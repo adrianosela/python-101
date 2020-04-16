@@ -12,7 +12,6 @@ The possible states of the game are:
 """
 def tictactoe(moves):
     # TODO: your code here
-    # remove the line below
     return ""
 
 """
