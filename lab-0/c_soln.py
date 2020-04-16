@@ -8,6 +8,10 @@ The possible states of the game are:
   "Draw" - board is full, no winner
   "Pending" - the game is ongoing
 
+Your function may assume that the moves are
+valid, and there will never be repeated grid
+coordinates in the same game (list of moves)
+
 :type moves: List[List[int]]
 """
 def tictactoe(moves):
