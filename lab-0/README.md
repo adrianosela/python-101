@@ -1,6 +1,6 @@
 ### Lab 0 - Some Practical Examples
 
-This lab will keep things simple. We will do 3 short exercises of incremental in difficulty.
+This lab will keep things simple. We will do 3 short exercises incremental in difficulty.
 
 Review your mathematical operators, literal types, lists, conditions,
 loops, and be sure to comment out your code where you deem necessary. If you are unsure about something, **take your time** and search the Internet to validate ideas you may have.
