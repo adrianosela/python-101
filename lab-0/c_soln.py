@@ -20,9 +20,9 @@ def tictactoe(moves):
     # define game entities
     players = ("A", "B")
     grid = [
-        [" "] * 3,
-        [" "] * 3,
-        [" "] * 3,
+        [" ", " ", " "],
+        [" ", " ", " "],
+        [" ", " ", " "],
     ]
     
     # add all moves to grid alternating player
