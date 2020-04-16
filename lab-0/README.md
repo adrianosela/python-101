@@ -1,22 +1,69 @@
-### Lab 0 - Lessons 0 to 3
+### Lab 0 - Some Practical Examples
 
-This lab will keep things simple. We will do 5 small exercises, incremental in difficulty.
+This lab will keep things simple. We will do 3 short exercises of incremental in difficulty.
 
 Review your mathematical operators, literal types, lists, conditions,
-loops, and be sure to comment out your code where you deem necessary.
+loops, and be sure to comment out your code where you deem necessary. If you are unsure about something, **take your time** and search the Internet to validate ideas you may have.
 
-Exercises are self contained in the files:
+Read the questions well before beginning to work on them.
 
-* `a.py`
-* `b.py`
-* `c.py` (TBD)
-* `d.py` (TBD)
-* `e.py` (TBD)
+**Exercises:**
 
-The solutions are in the corresponding files:
+### Watering Plants Planner
 
-* `a_soln.py`
-* `b_soln.py`
-* `c_soln.py` (TBD)
-* `d_soln.py` (TBD)
-* `e_soln.py` (TBD)
+You are given a list representing the amount of water
+required by some plants. Your water container can hold
+only 1000mL (1L) at a time. Your task is to find the
+number of times you will need to fill your container in
+order to water all the plants. Your container starts
+empty, i.e. with 0 mL.
+
+Assume that you can NOT begin watering a plant unless you
+have all of the water you need in your container. That
+is, if a plant requires 800mL of water, and you only
+have 400mL in your container, you MUST refill immediately.
+i.e. You can't pour half now, and half after you've refilled.
+
+Boilerplate for your code has already been written in `wateringplants.py`, and a reasonable solution in `wateringplants_soln.py `.
+
+### Find the 'o'
+
+Your task is to print the (row, column) coordinates, or (x, y), of the single 'o' character in a grid, represented as a list of lists:
+   
+```
+grid = [
+        ["x", "x", "x", "x", "x", "x"],
+        ["x", "x", "x", "x", "x", "x"],
+        ["x", "x", "x", "x", "x", "x"],
+        ["x", "x", "x", "x", "x", "x"],
+        ["x", "x", "x", "x", "x", "x"],
+        ["x", "x", "x", "x", "x", "x"],
+        ["x", "x", "x", "x", "x", "x"],
+        ["x", "x", "x", "x", "x", "x"],
+        ["x", "x", "x", "x", "x", "x"],
+        ["x", "x", "x", "x", "o", "x"],
+        ["x", "x", "x", "x", "x", "x"],
+        ["x", "x", "x", "x", "x", "x"],
+        ["x", "x", "x", "x", "x", "x"],
+    ]
+```
+
+Hint - you can nest loops within loops as follows:
+
+```
+for <var_x> in <iterator_x>:
+    for <var_y> in <interator_y>:
+        <statements>
+```
+
+Boilerplate for your code has already been written in `findo.py`, and a reasonable solution in `findo_soln.py `.
+
+### Tic-Tac-Toe Game Checker
+
+Given a list of moves where each element is another list of size 2 corresponding to the (row, column) coordinates of the grid where they mark their respective character.
+
+Return the winner of the game if it exists ("A" or "B"), in case the game ends in a draw return "Draw", if there are still movements to play return "Pending".
+
+You can assume that the list of moves is valid (moves follow the rules of Tic-Tac-Toe), the grid is initially empty and player A will play first.
+
+Boilerplate for your code has already been written in `tictactoe.py`, and a reasonable solution in `tictactoe_soln.py`. Note that the file includes a function to test your `tictactoe()` function against some examples. Run the `tictactoe.py` file before modifying it, and see how all tests are currently failing.
