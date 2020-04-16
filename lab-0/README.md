@@ -9,7 +9,7 @@ Read the questions well before beginning to work on them.
 
 **Exercises:**
 
-### Watering Plants Planner
+## Watering Plants Planner
 
 You are given a list representing the amount of water
 required by some plants. Your water container can hold
@@ -26,7 +26,7 @@ i.e. You can't pour half now, and half after you've refilled.
 
 Boilerplate for your code has already been written in `wateringplants.py`, and a reasonable solution in `wateringplants_soln.py `.
 
-### Find the 'o'
+## Find the 'o'
 
 Your task is to print the (row, column) coordinates, or (x, y), of the single 'o' character in a grid, represented as a list of lists:
    
@@ -58,7 +58,7 @@ for <var_x> in <iterator_x>:
 
 Boilerplate for your code has already been written in `findo.py`, and a reasonable solution in `findo_soln.py `.
 
-### Tic-Tac-Toe Game Checker
+## Tic-Tac-Toe Game Checker
 
 Given a list of moves where each element is another list of size 2 corresponding to the (row, column) coordinates of the grid where they mark their respective character.
 
